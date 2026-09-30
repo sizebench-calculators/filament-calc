@@ -1,0 +1,14 @@
+{
+  "name": "filament-calc",
+  "version": "1.0.0",
+  "description": "Dependency-free 3D printing filament math: meters ↔ grams, spool remaining, print cost and selling price.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js", "./materials.json": "./src/materials.json" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "keywords": ["3d-printing", "filament", "calculator", "pla", "petg", "print-cost", "3d-printer", "maker", "etsy"],
+  "homepage": "https://sizebench.com/3d-printing",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
